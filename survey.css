@@ -33,7 +33,7 @@ body{
 }
 
 #title{
-	font-size: 1.5rem;
+	font-size: 3vw;
 }
 
 #form-canvas{
@@ -42,7 +42,7 @@ body{
 	color: white;
 	text-align: left;
 	padding:5%;
-	font-size: 1.5rem;
+	font-size: 3vw;
 }
 
 .form-element{
