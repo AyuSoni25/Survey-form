@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BooksTransfer</title>
+	<!-- CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="survey.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="bg-img"></div>
+	<div id="bg-img-2"></div>
+
+		<div id="main">
+			<div id="title">
+			<h1>BooksTransfer Survey Form</h1>
+			<h4>Let us know about your book preferences !</h4>
+			</div>
+
+			<form id="form-canvas" method="" action="">
+			
+			<div class="form-element">
+				<label for="full-name">
+					Name <br>  
+					<input type="text" name="full-name" id="full-name" class="input" placeholder="Your Full Name" required>
+				</label>
+			</div>
+
+			<div class="form-element">
+				<label for="email-id">
+					Email <br>
+					<input type="email" name="email-id" id="email-id" class="input" placeholder="Your Email ID" required>
+				</label>
+			</div>
+
+			<div class="form-element">
+				<label for="age">
+					Age <br>
+					<input type="number" name="age" id="age" min="10" max="120" class="input" placeholder="Your Age" >
+				</label>
+			</div>
+
+			<div class="form-element">
+				<fieldset required>
+				<legend>Which type of books do you read?</legend>
+					<label><input type="checkbox" name="genre" id="genre" >Educational</label><br>
+					<label><input type="checkbox" name="genre" id="genre" >Self-help</label><br>
+					<label><input type="checkbox" name="genre" id="genre" >Fictional</label><br>
+					<label><input type="checkbox" name="genre" id="genre" >Thrillers</label><br>
+					<label><input type="checkbox" name="genre" id="genre" >Biographies</label><br>
+				</fieldset>
+			</div>
+
+			<div class="form-element">
+				<fieldset required>
+				<legend>In which format, do you like to read books?</legend>
+					<label><input type="radio" name="format" id="format" >Hard-books</label><br>
+					<label><input type="radio" name="format" id="format" >E-books</label><br>
+					<label><input type="radio" name="format" id="format" >Both hard-books and e-books</label><br>
+				</fieldset>
+			</div>
+
+			<div class="form-element">
+				<label for="opinion">
+					Should we buy new books everytime or we can buy used books and can save paper?<br>
+					<textarea name="opinion" id="opinion" class="input" rows="5" placeholder="Write your views here" required></textarea>
+				</label>
+			</div>
+
+			<div class="form-element">
+				<button class="input" id="button">Submit</button>
+			</div>		
+			</form>
+		</div>
+</body>
+</html>

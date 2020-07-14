@@ -1,0 +1,65 @@
+body{
+	text-align : center;
+	font-family: 'Montserrat', sans-serif;
+	height : 100%;
+	width : 100%;
+	margin:0px;
+	position:relative;
+}
+
+#bg-img{
+	height: 100%;
+	width:100%;
+	margin:0px;
+	background:url("book.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:fixed;
+}
+
+#bg-img-2{
+	height: 100%;
+	width:100%;
+	margin:0px;
+	background-color: rgba(214, 239, 199, 0.6);
+	position:fixed;
+}
+
+#main{
+	position:absolute;
+	z-index: 1;
+	width:70%;
+	margin:2% 15% ;
+}
+
+#title{
+	font-size: 1.5rem;
+}
+
+#form-canvas{
+	background-color: rgba(24, 77, 71, 0.8);
+	border-radius: 2%;
+	color: white;
+	text-align: left;
+	padding:5%;
+	font-size: 1.5rem;
+}
+
+.form-element{
+	width:90%;
+	margin: 5%;
+}
+
+.input{
+	width:100%;
+	margin:5px 0px;
+	font-size: 1.2rem;
+}
+
+#button{
+	background-color: rgba(0,0,0,0.7);
+	color:white;
+	font-size: 1.7rem;
+	border:none;
+	border-radius: 5px;
+}
